@@ -1,0 +1,214 @@
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+.redused-menu {
+    height: 50px;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top:0;
+}
+
+.head-continer {
+    height: 50px;
+    z-index: 100;
+    position: fixed;
+    top:0;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-brand {
+    padding: 0;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-btn,
+.menu-btn:hover,
+.menu-btn:active,
+.menu-btn:focus {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 20px;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.menu-btn-clicked {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+@media(min-width:1025px) {
+    .menu-btn {
+        display: none;
+
+    }
+}
+
+@media(max-width:1024px) {
+    .expanded-menu {
+        display: none;
+    }
+
+    .sign span,
+    .sign p {
+        display: none;
+
+    }
+
+    .right-section-seperator {
+        display: none;
+    }
+
+
+}
+
+.logo img {
+    height: 24px;
+    padding-left: 20px;
+}
+
+#logo-container {
+    justify-content: center;
+    display: flex;
+}
+
+.right-section {
+    justify-content: space-evenly;
+}
+
+.right-section:hover {
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.sign span {
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+.right-section-seperator {
+    width: 2px;
+    height: 45px;
+    background-color: black;
+}
+
+.cart {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: bold;
+}
+
+.cart p {
+
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    height: 40px;
+}
+.expanded-menu a{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover, .expanded-menu:focus{
+    color: gray;
+}
+#offcanvasNavbar{
+    width: 100vw;
+}
+.lines div{
+    background-color: red;
+    height: 40px;
+    width:10px;
+    margin-right: 10px;
+}
+.cookin{
+    font-size: 45px;
+    font-weight: 700;
+    max-height: 800px;
+    width: 100%;
+     
+}
+.menu-div div{
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    color: black;
+    max-height: 200px;
+    align-items: center;
+    font-size: large;
+    background-color: aliceblue;
+    padding-left: 10px;
+}
+.menu-div img{
+    max-height: 100px;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.deals-div div{
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    max-height: 200px;
+    color: black;
+    align-items: center;
+    font-size: large;
+    background-color: aliceblue;
+    padding-left: 10px;
+}
+.deals-div img{
+
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    
+}
+.info-div{
+    background-color: aliceblue;
+}
+.info-div a{
+    text-decoration: none;
+    color: black;
+    
+}
+.info-div ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.info-div li{
+    margin-bottom: 20px;
+}

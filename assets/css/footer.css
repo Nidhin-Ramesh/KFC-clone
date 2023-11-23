@@ -1,0 +1,11 @@
+#footer img:hover, 
+#footer li:hover,
+#footer i:hover{cursor: pointer;}
+#footer img, 
+#footer a{
+margin-bottom: 20px;
+text-wrap: nowrap;
+}
+#footer{
+    text-wrap: nowrap;
+}
